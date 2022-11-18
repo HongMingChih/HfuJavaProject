@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.container-fluid{
+    background-color: #FBE4D0;
+}
+
+.card-header{
+	text-align: center;	
+}
+.card-body{
+	text-align: center;
+}
+
+.text-center h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 60px;
+}
+.content2{
+    height: 660px;
+}
+.card header{
+    text-align:center;
+    padding:100px;
+}
+.main-content p{
+    font-size: 32px;
+}
+#reset{
+    background-color: #FEAE63;
+    width: 80px;
+    height: 40px; 
+    font-size: 20px;
+}
+#enter{
+    background-color: #FEAE63;
+    width: 80px;
+    height: 40px; 
+    font-size: 20px;
+}
+
+
+footer{
+    height: 180px;
+    background-color: #FBE4D0;
+    padding: 20px;
+
+}
+footer p{
+    font-size: 24px;
+}

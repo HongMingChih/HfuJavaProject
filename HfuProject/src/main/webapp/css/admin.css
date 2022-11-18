@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+    ;
+}
+
+.row {
+    white-space: nowrap;
+    ;
+}
+
+body {
+    background: rgb(226, 226, 226);
+    background-color: #FBE4D0;
+}
+
+.sidenav {
+    background-color: #FAD3AF;
+    height: 900px;
+    width: auto;
+    ;
+
+}
+
+.sidenav .button {
+    margin: 50px;
+    font-size: 32px;
+    background-color: white;
+
+}
+
+.navbar {
+    height: 120px;
+}
+
+.navbar a {
+    font-size: 40px;
+}
+
+.main-content {
+    background-color: #FBE4D0;
+
+}
+
+div.row.content {
+    white-space: nowrap;
+    height: 900px
+}
+
+.res {
+    overflow: auto;
+    /* //scroll過長內容下拉 */
+    height: 50em;
+}
+
+div .card img {
+    width: 13.4em;
+    height: 10em;
+}
+
+div.card-body {
+    width: 15em;
+}
+
+.card {
+    width: 13.5em;
+}
+
+.card-body2 {
+    width: 15em;
+
+
+
+    width: 13.5em;
+    /* //超過這個寬度就會被隱藏 */
+    height: 10em;
+}
+
+div#nys1.card-text {
+    white-space: pre-line;
+    overflow: auto;
+    /* //過長內容被隱藏 */
+    height: 8em;
+}
+
+/* #nys1 {
+	text-overflow: ellipsis; 
+	overflow: auto; 
+	white-space: pre-line;; 
+width: 13.5em;//超過這個寬度就會被隱藏
+	height: 100px;
+} 
+ */
+/* 
+#nys1 {
+	text-overflow: ellipsis; //被隱藏的用省略號代替
+	overflow: auto; //過長內容被下拉
+	white-space: pre-line;; //不換行
+	width: 190px; //超過這個寬度就會被隱藏
+	height: 100px;
+} */
+select {
+    width: 120px;
+    height: 30px;
+
+}
+
+.query {
+    display: flex;
+    justify-content: center;
+    /*  //水平置中 */
+    align-items: center;
+    /* //垂直置中 */
+}
+
+h3.font-title {
+    font-style: italic;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
